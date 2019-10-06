@@ -1,0 +1,7 @@
+{
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 100
+}
