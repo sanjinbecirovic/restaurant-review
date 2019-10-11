@@ -24,7 +24,7 @@ Restaurants detailed view has:
 
 Restaurant List can be filtered by Rating
 
-The solution consists of:
+# The solution consists of:
 
 * A client app implemented as a REACTJS SPA, with JWT token auth, mobx for state management, and ant design as UI library,
 * A Net Core API with Swagger UI and API versioning out of the box.
