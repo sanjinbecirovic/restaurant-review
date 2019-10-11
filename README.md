@@ -3,21 +3,28 @@
 A sample web app that offers the following functionality:
 
 Users are able to (depending on the user role):
+
     * Regular User: Can login/register, rate and leave a comment for a restaurant
     * Owner: Can login/register, create restaurants and reply comments about owned restaurants
     * Admin: Can lock owners, delete restaurants, comments, and reviews
+
 Reviews have:
+
     * A 5 star based rate
     * Date of the visit
     * Comment
+
 When a Regular User logs in he sees a Restaurant List ordered by Rate Average
 When an Owner logs in he sees a Restaurant List only the ones owned by him, and the reviews pending to reply
 Owners can reply the review once
+
 Restaurants detailed view has:
+
     * The overall average rating
     * The highest rated review
     * The lowest rated review
     * Last reviews with rate, comment, and reply
+
 Restaurant List can be filtered by Rating
 
 The solution consists of:
