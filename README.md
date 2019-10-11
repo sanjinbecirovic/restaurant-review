@@ -62,7 +62,7 @@ You can either use Visual Studio or Visual Studio Code by installing the latest 
 * `NuGet.Config` ➡ Configuration of NuGet server sources.
 * `README.md` ➡ Description of repository/project.
 
-# Logging / NLog
+## Logging / NLog
 
 Errors are stored in a seperate log file ending with `.error.log` for easier lookup of issues.
 For development purposes the logs will be stored in e.g. `<PATH TO REPO>\src\RestaurantReview.Web\bin\Debug\netcoreapp2.2\logs\`.
@@ -75,7 +75,7 @@ Archived files will always be stored in a sub-folder named `archive` with total 
   * This setting will always provide a clean/new log file of the current app process.
   * IIS recycle settings need to be updated to disable periodic restart time, reset interval and idle timeout. Otherwise `archiveOldFileOnStartup` should be set to `false`.
 
-# Entity Framework Core
+## Entity Framework Core
 
 EF Core is available in different versions 2.x, 3.x... which lead to problems when used with different versions of Visual Studio. To have a constent behavior it is recommended to use [EF Core .NET CLI](https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/dotnet) (dotnet command) instead of the [Package Manager Console in Visual Studio](https://docs.microsoft.com/en-us/ef/core/miscellaneous/cli/powershell).
 Example of dotnet command: `dotnet ef database update InitialCreate`
