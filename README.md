@@ -34,6 +34,10 @@ You can either use Visual Studio or Visual Studio Code by installing the latest 
 
 # Technology Stack
 
+* [ReactJS](https://reactjs.org)
+* [Mobx](https://mobx.js.org/README.html)
+* [Formik](https://jaredpalmer.com/formik/)
+* [Antd](https://ant.design)
 * [AutoMapper](http://docs.automapper.org/en/stable/)
 * [API Versioning](https://github.com/microsoft/aspnet-api-versioning)
 * [ASP.NET Core 2.2](https://docs.microsoft.com/en-us/aspnet/core)
